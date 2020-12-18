@@ -10,7 +10,7 @@ class NedoQuotesMod1(loader.Module):
     """Генератор всратых цитат by @ShittyQuoteBot"""
     strings = {'name': 'NedoQuotes1'}
 
-    async def nqcmd(self, message):
+    async def mqcmd(self, message):
         """Используй: .mq <текст или реплай>."""
         chat = "@Maksobot"
         text = utils.get_args_raw(message)
